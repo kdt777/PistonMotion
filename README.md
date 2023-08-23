@@ -18,3 +18,12 @@ Solving this for the (positive) quadratic root, we get:
        h = @ + sqrt(@^2 + c^2 - 1) 
     
 where @ = cos(A). 
+
+Furthermore, we can derive the angle *B* at the big-end of the con-rod between the rod and the crank throw: 
+
+    cos(B) = (c^2 + 1 - h^2) / 2c  
+
+Alternatively, applying the sine rule gives us the angle *G* of the con-rod at the gudgeon off the verticle:
+
+    sin(G) = sin(A) / c
+
